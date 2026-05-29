@@ -348,16 +348,6 @@ p {
   width: 20px;
 }
 
-.right_Side.original-display .interests ul li,
-.right_Side.md-size .interests ul li {
-  color: #fff;
-}
-
-.right_Side.original-display .interests ul li .fa,
-.right_Side.md-size .interests ul li .fa {
-  color: #fff;
-}
-
 /* target RPG */
 .flow-animation {
   animation: rainbow 8s linear;
@@ -611,6 +601,18 @@ p {
     color: white;
   }
 
+  .right_Side.original-display .interests ul li .fa {
+    color: white;
+  }
+
+  .right_Side.md-size .interests ul li {
+    color: white;
+  }
+
+  .right_Side.md-size .interests ul li .fa {
+    color: white;
+  }
+
   .right_Side.original-display #pdf-export {
     display: none;
   }
@@ -631,6 +633,16 @@ p {
 
   .interests ul {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .right_Side.original-display .interests ul li,
+  .right_Side.md-size .interests ul li {
+    color: white;
+  }
+
+  .right_Side.original-display .interests ul li .fa,
+  .right_Side.md-size .interests ul li .fa {
+    color: white;
   }
 
   .skills .box {
