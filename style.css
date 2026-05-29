@@ -150,6 +150,10 @@ body {
   font-weight: 300;
 }
 
+.contactInfo ul li .text.email {
+  font-size: 0.78em;
+}
+
 .contactInfo ul li .link {
   padding-left: 4px;
 }
