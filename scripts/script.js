@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const guitarContainer = document.getElementById("guitar-container-1");
+  const pianoContainer = document.getElementById("piano-container-1");
   const musicPlayer = document.getElementById("music-player");
 
-  if (!guitarContainer || !musicPlayer || typeof SC === "undefined") {
+  if (!pianoContainer || !musicPlayer || typeof SC === "undefined") {
     return;
   }
 
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     widget.setVolume(40);
   });
 
-  guitarContainer.addEventListener("click", function () {
+  pianoContainer.addEventListener("click", function () {
     if (!widgetIsReady) {
       return;
     }
